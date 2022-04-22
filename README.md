@@ -1,1 +1,4 @@
 # Java-Project-Decimal-to-Binary-Converter
+ 
+ The code has a functionality to convert decimal values into binary ones by using stacks and mathematical functions to achieve it. The code imports scanner in the beginning in order to allow user input to be taken and used throughout the conversion process, once the user input is taken it is placed on a newly created stack which wraps a value into the object. If the user input is different from 0 the code starts dividing it by 2 repeadetly by the push functionality until the remainder is either 1 or 0 which means that the dividing can't be continued anymore. Once there is reached the point of no more divisions the code stops and prints out the last value. If the input is empty the pop method takes the highest priority without removing it and returns it as the final value.
+ 
